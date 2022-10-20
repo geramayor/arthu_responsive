@@ -30,11 +30,11 @@
 <body>
     @include('comprador.navbar')
 
-<<<<<<< HEAD
+
     <section class="vh-50">
-=======
+
     <section class="vh-100">
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
+
         <div class="container py-5 h-50">
             <div class="row d-flex align-items-center justify-content-center h-50">
                 <div class="col-md-8 col-lg-7 col-xl-6">
@@ -42,11 +42,11 @@
                 </div>
 
                 <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
-<<<<<<< HEAD
+
                     <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
-=======
+
                 <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
+
                     <br><br>
                     <form>
                         <!-- Email input -->
@@ -75,12 +75,12 @@
             </div>
         </div>
     </section>
-<<<<<<< HEAD
+
 
 </body>
 <footer>
     @include('comprador.footer')
 </footer>
-=======
+
 </body>
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
+

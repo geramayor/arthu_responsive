@@ -31,20 +31,12 @@
     <!-- Responsive navbar-->
     <div class="superNav border-bottom py-2 gray-300 ">
 
-<<<<<<< HEAD
-        @include('comprador.navbar')
-=======
     @include('comprador.navbar')
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
 
         <div class="container py-4  mb-4">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="card mb-4">
-<<<<<<< HEAD
-
-=======
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
                         <body>
                             <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
                                 <div class="carousel-inner">
@@ -101,42 +93,6 @@
                     <div class="card mb-4">
                         <div class="card-header">Buscar </div>
                         <div class="card-body">
-<<<<<<< HEAD
-                            <form action="catalogo" method="get">
-                                <div class="input-group">
-                                    <input class="form-control" type="text" id="busca" name="texto" value="{{$texto}}" placeholder="Buscar por nombre" aria-label="Enter search term..." aria-describedby="button-search" />
-                                    <input class="btn btn-primary" type="submit" value="Buscar">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                    @if(count($productos)<=0) <h1>Busqueda NO encontrada</h1>
-                        @endif
-
-
-                        <!-- Categories widget-->
-                        <div class="card mb-4">
-                            <div class="card-header">Categories</div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><a href="#!">Web Design</a></li>
-                                            <li><a href="#!">HTML</a></li>
-                                            <li><a href="#!">Freebies</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <ul class="list-unstyled mb-0">
-                                            <li><a href="#!">JavaScript</a></li>
-                                            <li><a href="#!">CSS</a></li>
-                                            <li><a href="#!">Tutorials</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-=======
                         <form action="catalogo" method="get">
                             <div class="input-group">
                                 <input class="form-control" type="text" id="busca" name="texto" value="{{$texto}}" placeholder="Buscar por nombre" aria-label="Enter search term..." aria-describedby="button-search" />
@@ -172,26 +128,17 @@
                             </div>
                         </div>
                     </div>
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
 
                 </div>
             </div>
         </div>
 
         @php $cuantos=0 @endphp
-<<<<<<< HEAD
-        @foreach($productos as $producto)
-        @if($cuantos==0)
-        <div class="row">
-            @endif
-            @php $cuantos++ @endphp
-=======
             @foreach($productos as $producto)
         @if($cuantos==0)
         <div class="row">
         @endif
         @php $cuantos++ @endphp
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
             <div class="col col-lg-3">
                 <!-- Blog post-->
                 <div class="col-sm">
@@ -211,27 +158,12 @@
 
 
 
-<<<<<<< HEAD
-        <footer>
-            @include('comprador.footer')
-=======
-                    <!-- Footer-->
-
-
-                    <footer class="py-5 bg-dark">
-            <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
-            </div>
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
-        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
 </body>
-
-<<<<<<< HEAD
+<footer>
+    @include('comprador.footer')
+</footer>
 </html>
-=======
-</html>
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833

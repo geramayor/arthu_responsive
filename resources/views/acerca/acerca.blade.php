@@ -30,24 +30,14 @@
 <body>
     <!-- Responsive navbar-->
     <div class="superNav border-bottom py-2 gray-300">
-<<<<<<< HEAD
         @include('comprador.navbar')
-=======
-    @include('comprador.navbar')
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
-
 
         <section class="bg-light">
             <div class="container px-4 text-center py-4">
                 <h1 class="fw-bolder">Artesanias Huasteca</h1>
             </div>
     </div>
-<<<<<<< HEAD
-
-=======
-   
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
-    </section>
+</section>
 
 
     <!-- About section-->
@@ -93,15 +83,10 @@
         </div>
     </section>
     <!-- Footer-->
-<<<<<<< HEAD
+
     <footer>
         @include('comprador.footer')
-=======
-    <footer class="bg-light p-5 text-white bg-opacity-10">
-        <div class="container px-4">
-            <p class="m-0 text-center text-dark">Copyright &copy; Your Website 2022</p>
-        </div>
->>>>>>> f6050fc6407ba635c76aa7030117e8b04a6b5833
+
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
