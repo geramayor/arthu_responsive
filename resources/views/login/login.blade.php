@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -47,7 +47,7 @@
                 <div class="card-body">
                     <form action="{{route('login.store')}}" method="post">
                     @csrf
-
+                        
                        <center>
                         <div class="col-md-10">
                             <img src="public/uploads/login.png" width="100"/>

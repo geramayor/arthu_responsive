@@ -26,6 +26,7 @@ Route::get('/logout',[SessionsController::class,'destroy'])->name('login.destroy
 Route::get('/register',[RegisterController::class,'create'])->middleware('guest')->name('register.index');
 Route::post('/register',[RegisterController::class,'store'])->name('register.store');
 //Route::post('/password',[PasswordController::class,'store'])->name('register.store');
+
 Route::get('/catalogo',[CatalogoController::class,'index'])->middleware('guest')->name('catalogo.index');
 Route::get('/catalogo/{id}',[CatalogoController::class,'show'])->middleware('guest')->name('catalogo.show');
 

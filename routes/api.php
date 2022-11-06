@@ -30,3 +30,16 @@ Route::post('/usuarios','App\Http\Controllers\Auth\RegisterController@store');
 Route::get('/usuarios/{id}','App\Http\Controllers\Auth\RegisterController@getUserid');
 Route::put('/updateusuarios/{id}','App\Http\Controllers\Auth\RegisterController@updateuser');
 Route::delete('/deleteusuarios/{id}','App\Http\Controllers\Auth\RegisterController@deleteuser');
+
+Route::group([
+
+    'middleware' => 'api',
+    'prefix' => 'auth'
+
+], function ($router) {
+    Route::post('login', 'App\Http\Controllers\AuthController@login');
+    Route::post('logout', 'App\Http\Controllers\AuthController@logout');
+    Route::post('refresh', 'App\Http\Controllers\AuthController@refresh');
+    Route::post('me', 'AuthController@me');
+
+});

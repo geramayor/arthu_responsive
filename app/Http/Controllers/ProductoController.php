@@ -22,6 +22,9 @@ class ProductoController extends Controller
         ->paginate(1000);     
 
         return view('producto.index',compact('productos','categorias'));
+
+
+        
     }
 
     public function create(){

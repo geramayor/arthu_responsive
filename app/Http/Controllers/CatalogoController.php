@@ -21,7 +21,7 @@ class CatalogoController extends Controller
             ->select('intId', 'vchNombre', 'fltPrecio', 'intExistencia', 'txtDescripcion', 'vchFoto1')
             ->where('vchNombre', 'LIKE', '%' . $texto . '%')
             ->orderBy('vchNombre', 'asc')
-            ->paginate(20);
+            ->paginate(3);
         return view('principal.principal', compact('productos', 'texto'));
     }
 
